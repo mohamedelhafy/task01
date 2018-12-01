@@ -1,0 +1,111 @@
+body{
+
+
+     background-image: url(img/foot.jpg);/*اضافه صوره
+    url(بتاخد مكان واسم الصوره)*/
+    background-repeat: no-repeat;/*  هذه الخاصيه بتتحكم في تكرار الصوره وهنا انا منعت التكرار اكتر من مره */
+    background-size: cover;/*هذه الخاصيه خاصه بمقاس لخلفيه وهنا انا خليت الصوره تاخد الخلفيه كلها*/
+
+}
+/*اول عنوان في الصفحه*/
+h1.heading{
+
+    color:antiquewhite;/*خاصيه تغيير لون الخط*/
+    margin-left: 550px;/*margin(خاص بالهوامش الخارجيه للعنصر)
+    margin-left (هيحرك العنصر مسافه في شمال الصفحه قدرها 500)*/
+}
+/*العنوان بداخل الفورم*/
+h1.head{
+    margin-left: 100px;
+    color:aqua;
+
+}
+/*تظبيط شكل الفورم*/
+div{
+
+   position: absolute;/*بتظبط موضع االفورم */
+   top:12%;/*خاصه بتحريك الفورم لفوق*/
+   left: 45%;/* خاصه بتحريك الفورم لجهه اليسار*/
+
+    width: 400px;/*بتحدد عرض الفورم*/
+    height: 560px;/*بتحدد ارتفاع الفورم*/
+    /*box-sizing: border-box;*/
+    background: rgba(0,0,0,.5);/*(0,0,0)هذه الخاصيه بتعمل لون للخلفيه الخاضه بالفورم اولا بتاخد كودا اللون المتمثل فيه
+    ويعني اللون الاسود وكمان بتحدد الشفافيه بتاعت اللون تعني درجه ظهور اللون */
+    border-radius: 20px;/*بتعمل للحدود كيرف*/
+}
+/*style of inputs*/
+.choose{
+    margin-left: 45px;
+    width: 125px;
+    height: 18px;
+    background: rgba(0,0,0,.5);
+     border: 1px solid black;
+    color: beige;
+}
+/*style of inputs*/
+.ch{
+     margin-left: 45px;
+     width: 125px;
+     height: 18px;
+    background: rgba(0,0,0,.5);
+     color: beige;
+}
+/*style of inputs*/
+input{
+    margin-left: 45px;
+    width: 300px;
+    height: 18px;
+    background: rgba(0,0,0,.5);
+    border: 1px solid black;
+    border-radius: 3px;
+    color: beige;
+
+}
+/*style of button*/
+
+button{
+
+    margin-left: 45px;
+    width: 300px;
+    height: 30px;
+    background: rgba(0,0,0,.5);
+    background-color:aqua;/*بتحدد لون الخلفيه*/
+    font-size: 20px;/*بتحدد حجم الخط*/
+   font-family:monospace;/*بتحدد نوع الخط*/
+}
+/*style of paragraph*/
+p.last{
+    margin-top: 600px;
+    margin-left: 300px;
+    color: antiquewhite;
+}
+/*tablet*/
+/*@media screen and(min-width:401px) and(max-width:768px){
+    body{
+        width:20%;
+    }
+    div{
+        width:90%;
+    }
+    img{
+        width: 90%;
+    }
+    h1.heading{
+        margin-left: 50%;
+        color:red;
+
+    }
+
+}*/
+/*mobile*/
+/*@media screen and(max-width:300px){
+
+    body{
+        width:300px;
+    }
+    div{
+
+    }
+
+}*/
